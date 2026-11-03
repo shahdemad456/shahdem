@@ -42,10 +42,10 @@ class Student {
 // Create Students
 
 let studentsList = [
-    new Student(1, "Ahmed", [90, 85, 95], 90),
-    new Student(2, "Mona", [40, 45, 45], 80),
-    new Student(3, "Ali", [60, 70, 65], 85),
-    new Student(4, "Sara", [45, 48, 42], 90)
+    new Student(1, "Shahd", [90, 65, 95], 90),
+    new Student(2, "Maha", [60, 45, 45], 80),
+    new Student(3, "Rahma", [44, 85, 65], 85),
+    new Student(4, "Ali", [45, 50, 42], 90)
 ];
 
 // Filter Struggling Students
