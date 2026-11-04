@@ -42,10 +42,10 @@ class Student {
 // Create Students
 
 let studentsList = [
-    new Student(1, "Ahmed", [90, 85, 95], 90),
-    new Student(2, "Mona", [40, 45, 45], 80),
+    new Student(1, "Emad", [90, 85, 95], 90),
+    new Student(2, "Maha", [40, 45, 45], 80),
     new Student(3, "Ali", [60, 70, 65], 85),
-    new Student(4, "Sara", [45, 48, 42], 90)
+    new Student(4, "shahd", [95,75,80], 90),
 ];
 
 // Filter Struggling Students
@@ -75,7 +75,7 @@ let totalNewAverages = mercyStudents.reduce((sum, student) => {
     return sum + student.newAverage;
 }, 0);
 
-// Protect Against Division By Zero
+// Protect Against Dividaon By Zero
 
 let mercyAverage = mercyStudents.length > 0
     ? totalNewAverages / mercyStudents.length
