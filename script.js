@@ -84,7 +84,6 @@ let mercyAverage = mercyStudents.length > 0
 
 studentsList.forEach(student => {
     let average = student.calculateAverage();
-
     console.log("ID:", student.id);
     console.log("Name:", student.name);
     console.log("Average:", average);
