@@ -42,11 +42,10 @@ class Student {
 // Create Students
 
 let studentsList = [
-    new Student(1, "Shahd", [90, 65, 95], 90),
-    new Student(2, "Maha", [60, 45, 45], 80),
-    new Student(3, "Rahma", [44, 85, 65], 85),
-    new Student(4, "Ali", [45, 50, 42], 90),
-    new Student(5, "Emad", [78,89,50],75),
+    new Student(1, "Ahmed", [90, 85, 95], 90),
+    new Student(2, "Mona", [40, 45, 45], 80),
+    new Student(3, "Ali", [60, 70, 65], 85),
+    new Student(4, "Sara", [45, 48, 42], 90)
 ];
 
 // Filter Struggling Students
@@ -82,23 +81,30 @@ let mercyAverage = mercyStudents.length > 0
     ? totalNewAverages / mercyStudents.length
     : 0;
 
+// Print Students Report
+
+console.log("===== STUDENTS REPORT =====");
+
 studentsList.forEach(student => {
     let average = student.calculateAverage();
+
     console.log("ID:", student.id);
     console.log("Name:", student.name);
     console.log("Average:", average);
     console.log("Grade:", student.getGrade(average));
     console.log("Result:", student.getResult(average));
 
-    console.log("***********");
+    console.log("--------------------");
 });
 
 // Print Mercy Students
 
-console.log(mercyStudents);
-connsole.log(mercyStudent);
+console.log("===== MERCY STUDENTS =====");
 
+console.log(mercyStudents);
 
 // Print Mercy Average
+
+console.log("===== MERCY AVERAGE =====");
 
 console.log(mercyAverage);
