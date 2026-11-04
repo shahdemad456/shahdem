@@ -92,7 +92,7 @@ studentsList.forEach(student => {
     console.log("Grade:", student.getGrade(average));
     console.log("Result:", student.getResult(average));
 
-    console.log("--------------------");
+    console.log("************");
 });
 
 // Print Mercy Students
