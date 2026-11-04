@@ -83,8 +83,6 @@ let mercyAverage = mercyStudents.length > 0
 
 // Print Students Report
 
-console.log("===== STUDENTS REPORT =====");
-
 studentsList.forEach(student => {
     let average = student.calculateAverage();
 
@@ -101,7 +99,7 @@ studentsList.forEach(student => {
 
 console.log("===== MERCY STUDENTS =====");
 
-console.log(mercyStudents);
+console.log("Array:" mercyStudents);
 
 // Print Mercy Average
 
