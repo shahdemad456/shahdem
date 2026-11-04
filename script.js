@@ -96,7 +96,7 @@ studentsList.forEach(student => {
 // Print Mercy Students
 
 console.log(mercyStudents);
-connsole.log("Array:", mercyStudent);
+connsole.log(mercyStudent);
 
 
 // Print Mercy Average
